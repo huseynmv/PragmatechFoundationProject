@@ -1,0 +1,49 @@
+.container{
+    width: 1200px;
+    height: 300px;
+    
+    margin: 0 auto;
+}
+.row{
+    
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    border: 1px solid black;
+    
+}
+
+.topleftbox{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: green;
+
+
+}   
+
+.toprightbox{
+    width: 650px;
+    height: 200px;
+    border: 1px solid red;
+    margin-left: 50px;
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.bottominnerbox{
+    width: 500px;
+    height: 100px;
+    border: 1px solid purple;
+    background-color: blue;
+
+}
+.innerbox{
+    width: 150px;
+    height: 70px;
+    background-color: grey;
+}

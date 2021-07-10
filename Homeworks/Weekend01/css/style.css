@@ -1,0 +1,123 @@
+.container{
+    width: 1300px;
+    height: 700px;
+    
+    margin: 0 auto;
+}
+
+.TopDiv {
+    width: 1270px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+.LeftDiv {
+    width: 120px;
+    height: 70px;
+    background-color: grey;
+}
+
+.RightDiv{
+    width: 520px;
+    height: 70px;
+    background-color: grey;
+}
+.NavDiv {
+    width: 1270px;
+    height: 20px;
+    
+    margin: 10px auto;
+    background-color: grey;
+}
+.MainDiv {
+    width: 1270px;
+    height: 500px;
+    
+    margin: 10px auto;
+    display: flex;
+}
+
+.BottomDiv{
+    width: 1270px;
+    height: 60px;
+    
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.column1 {
+    width: 400px;
+    height: 470px;
+    align-items: center;
+    display: inline-block
+    
+}
+
+.SameDiv{
+    width: 300px;
+    height: 130px;
+    
+    margin-bottom: 10px;
+    
+    margin-top: 10px;
+    background-color: grey;
+}
+
+.DealDiv {
+    width: 300px;
+    height: 180px;
+    
+    
+    margin-top: 15px;
+    background-color: grey;
+}
+
+.column2{
+    width: 250px;
+    height: 470px;
+    
+    margin: 10px;
+    
+}
+
+.SignUpDiv{
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    margin: 10px auto;
+}
+.PetDiv{
+    width: 200px;
+    height: 340px;
+    background-color: grey;
+    margin: 0 auto;
+}
+.column3{
+    width: 270px;
+    height: 470px;
+    
+    margin: 10px auto;
+}
+.DescriptionDiv{
+    width: 300px;
+    height: 100px;
+    background-color: grey;
+    margin: 10px auto;
+    margin-left: 120px;
+}
+.BlogDiv{
+    width: 300px;
+    height: 130px;
+    background-color: grey;
+    margin: 10px auto;
+    margin-left: 120px;
+}
+
+.DiscussionDiv{
+    width: 300px;
+    height: 180px;
+    background-color: grey;
+    margin: 10px auto;
+    margin-left: 120px;
+}

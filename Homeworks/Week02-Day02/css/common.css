@@ -1,0 +1,30 @@
+.logo {
+    text-align: center;
+    height: 100px;
+}
+
+.heading{
+    text-align: center;
+    
+}
+
+.text{
+    text-align: center;
+    
+}
+
+.row{
+    margin-top: 0px;
+    padding: 20px;
+}
+.bg-white{
+    background: white;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.m-2{
+    margin-left: 5px;
+}

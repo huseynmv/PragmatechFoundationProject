@@ -1,0 +1,41 @@
+.menu-container {
+    height: 700px;
+    border: 1px solid red;
+}
+
+.text-container{
+    height: 700px;
+    border: 1px solid black;
+}
+
+.image {
+    height: 250px;
+    border: 1px solid blue;
+}
+
+.menu {
+    height: 450px;
+    border: 1px solid brown;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .header-text{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+}
+.info-text{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+.icons{
+    width: 100px;
+    height: 50px;
+    background-color: blue
+} */

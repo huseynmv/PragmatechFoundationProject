@@ -21,7 +21,6 @@ p {
 
 .container-full {
     width: 100%;
-    display: flex;
 }
 
 .row {
@@ -35,7 +34,6 @@ p {
 
 .col-2 {
     width: calc((100%/12)*2)
-    
 }
 
 .col-3 {

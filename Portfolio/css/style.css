@@ -1,86 +1,88 @@
-.menu-container {
-    height: 700px;
-    background-color: #10121b;
+/* Navbar section start */
+#navbar{
+    background-color: #3b3a3a;;
 }
 
-.text-container{
-    height: 700px;
-    background-color: purple;
+.text-logo{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px
+
+
 }
+
+.logo-text{
+    padding: 20px
+}
+
+.logo-symbol{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu{
+    height: 100%;
+    margin-right: 60px;
+}
+
+.navbar-menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+}
+
+/* Navbar section end */
+
+/* Image and information start */
+
 .image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0px;
+    width: 500px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 0px 0px;
+
 }
-.image img {
-    max-width: 180px;
+
+.image-information-container{
+    background-color: #3b3a3a;
+}
+
+.image-information{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.image img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50%;
-    
-    
+    margin-top: 100px;
+    margin-left: 200px;
+
+
 }
 
-.menu {
-    height: 450px;
+.introduce{
+    height: 563.6px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-evenly;
+    overflow: hidden;
+    padding-right: 100px;
+}
+
+
+.cv-download{
+    width: 160px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 15%;
     text-align: center;
     
 }
 
-.menu-text{
-    color: white;
-    font-size: 1.7em;
-    list-style-type: none;
-    padding: 15px 5px;
-    text-transform: uppercase;
-}
-
-.text-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-text{
-    display: flex;
-    align-items: center;
-}
-
-.header-text span {
-    font-size: 2em;
-    margin-left: 15px;
-    color: red;
-}
-
-.info-text p{
-    text-align: center;
-}
-
-.icon-font{
-    display: flex;
-    list-style-type: none;
-    }
-
-    .icon-font li{
-        padding: 10px;
-    }
-
-
-/* .header-text{
-    width: 100px;
-    height: 50px;
-    background-color: black;
-}
-.info-text{
-    width: 100px;
-    height: 50px;
-    background-color: red;
-}
-.icons{
-    width: 100px;
-    height: 50px;
-    background-color: blue
-} */
+/* Image and information end */

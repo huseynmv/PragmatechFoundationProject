@@ -1,6 +1,14 @@
+body p{
+    font-family: "Poppins",Helvetica,sans-serif;
+    
+}
+body{
+    background-color: #222;;
+}
 /* Navbar section start */
 #navbar{
-    background-color: #3b3a3a;;
+    background-color: #222;
+
 }
 
 .text-logo{
@@ -12,7 +20,12 @@
 }
 
 .logo-text{
-    padding: 20px
+    padding: 20px;
+    color: white;
+}
+
+.logo-text h3{
+    color: white;
 }
 
 .logo-symbol{
@@ -33,6 +46,16 @@
     height: 100%;
 }
 
+.navbar-menu ul li{
+    color: rgb(170, 166, 166);
+}
+
+.navbar-menu ul li:hover{
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
 /* Navbar section end */
 
 /* Image and information start */
@@ -46,22 +69,31 @@
 }
 
 .image-information-container{
-    background-color: #3b3a3a;
+    background-color: #222;
 }
 
 .image-information{
     display: flex;
     box-sizing: border-box;
-    padding: 0px;
+    padding: 0px 200px;
 }
+.image{
+    display: flex;
+    
+    justify-content: flex-start;
 
+}
 .image img{
-    max-width: 100%;
+    
+
+
+    
+ max-width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 150px
 
 
 }
@@ -72,17 +104,136 @@
     flex-direction: column;
     justify-content:space-evenly;
     overflow: hidden;
-    padding-right: 100px;
+    padding: 100px 0px;
+    /* margin-right: 100px; */
+
+    
+}
+.name-surname h1{
+    color: #f5f5f5;
+    font-size: 3em;
 }
 
-
+.job-title h4{
+    color: #aaa;
+}
 .cv-download{
     width: 160px;
     height: 50px;
     background-color: grey;
     border-radius: 15%;
     text-align: center;
+
     
 }
 
+.information p{
+    color: #d5d5d5;
+    font-family: "Poppins",Helvetica,sans-serif;
+}
+
 /* Image and information end */
+
+/* What i do start */
+
+.what-i-do{
+    background-color: #222;
+    margin-bottom: 20px;
+}
+
+.main-text-container{
+    margin: 50px;
+}
+
+.copyright-container{
+    margin: 0px 50px;
+}
+
+.copyright-text{
+    padding: 20px 0px;
+}
+.copyright-text h3{
+    margin-bottom: 10px;
+    color: #f5f5f5;
+    
+    font-family: "Poppins",Helvetica,sans-serif;
+}
+.copyright-text p{
+    color: #d5d5d5;
+    font-family: "Poppins",Helvetica,sans-serif;
+}
+
+.testimotionals-text{
+    /* margin: 50px; */
+    margin-bottom: 20px;
+    
+}
+
+.testimotionals{
+    background-color: #222;
+}
+
+.testimotionals-container{
+    margin: 0px 50px;
+}
+
+.testimotionals-content{
+    border: 2px solid grey;
+    display: flex;
+    border-radius: 3%;
+}
+
+.test-comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* portfolio */
+
+.portfolio-text h1{
+    font-size: 3em;
+    color: #f5f5f5;
+}
+
+.portfolio-text{
+    margin: 50px;
+    padding: 50px 0px;
+}
+
+.portfolio-text-container{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.portfolio-sort{
+    margin: 1em 50px
+}
+
+.sort-text ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+.sort-text li{
+    padding-left: 1em;
+}
+
+.portfolio-projects{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 10px;
+}
+
+.portfolio-projects-items{
+    border: 1px solid white;
+    object-fit: cover;
+    width: 50px
+
+}
+
+.portfolio-projects-items img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}

@@ -1,22 +1,18 @@
 body p{
     font-family: "Poppins",Helvetica,sans-serif;
-    
 }
 body{
-    background-color: #222;;
+    background-color: #222;
 }
 /* Navbar section start */
 #navbar{
     background-color: #222;
-
 }
 
 .text-logo{
     display: flex;
     justify-content: flex-start;
     padding: 20px
-
-
 }
 
 .logo-text{
@@ -66,7 +62,6 @@ body{
     box-sizing: border-box;
     margin-right: 50px;
     object-fit: cover;
-
 }
 
 .image-information-container{
@@ -80,27 +75,18 @@ body{
 }
 .image{
     display: flex;
-    
     justify-content: flex-end;
     align-content: flex-end;
     margin: 50px 150px;
-
-
 }
+
 .image img{
-    
-
-
-    
     max-width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 100px;
     border: 10px solid grey;
-    /* margin-left: 150px */
-
-
 }
 
 .introduce{
@@ -111,11 +97,9 @@ body{
     overflow: hidden;
     padding: 100px 0px;
     align-content: flex-start;
-   
-    
-
-    
 }
+
+
 .name-surname h1{
     color: #f5f5f5;
     font-size: 3em;
@@ -140,13 +124,12 @@ body{
 }
 
 .cv-download p{
-    color: white;
+    color: #d5d5d5;
     margin-top: 8px;
 }
 
 .information p{
     color: #d5d5d5;
-    font-family: "Poppins",Helvetica,sans-serif;
 }
 
 /* Image and information end */
@@ -164,41 +147,36 @@ body{
 }
 
 .copyright-container{
-    /* margin: 0px 50px; */
     display: flex;
     padding: 15px 50px;
-
 }
 
 .copyright-icon{
-    /* display: flex;
-    align-items: center; */
     font-size: 2em;
     color: red;
     margin-top: 15px;
     margin-right: 15px;
-
 }
 
 .copyright-text{
     padding: 20px 0px;
 }
+
+
 .copyright-text h3{
     margin-bottom: 10px;
     color: #f5f5f5;
-    
-    font-family: "Poppins",Helvetica,sans-serif;
 }
+
 .copyright-text p{
     color: #d5d5d5;
-    font-family: "Poppins",Helvetica,sans-serif;
 }
 
 /* What i do end */
 
 /* Testimotionals Start */
+
 .testimotionals-text{
-    /* margin: 50px; */
     margin-bottom: 20px;
     color: white;
     
@@ -237,7 +215,6 @@ body{
     color: #e5e5e5;
 }
 
-
 .test-image img {
     max-width: 80%;
     height: auto;
@@ -249,6 +226,7 @@ body{
 
 /* Testimotionals End */
 
+
 /* Portfolio Start*/
 
 .portfolio-text h1{
@@ -257,13 +235,14 @@ body{
 }
 
 .portfolio-text{
-    margin: 50px;
-    padding: 50px 0px;
+    margin:10px 50px;
+    padding: 40px 0px;
 }
 
 .portfolio-text-container{
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    background-color: #252525;
 }
 
 .portfolio-sort{
@@ -275,9 +254,8 @@ body{
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
-    
-    
 }
+
 .sort-text li{
     margin-left: 20px;
     color: #f5f5f5;    
@@ -309,26 +287,168 @@ body{
 /* Portfolio End */
 
 /* Footer start */
-    .footer-social ul li{
+.footer-social ul li{
         list-style: none;
         margin: 20px;
         opacity: 0.6;
         color: #ddd;
-    }
-    .footer-container{
+}
+.footer-container{
         display: flex;
         justify-content: space-between;
-        margin: 20px 50px;
-    }
+        margin: 30px 0px 0px 0px;
+}
 
-    .footer-copyright{
+.footer-copyright{
         display: flex;
         align-items: center;
         justify-content: flex-end;
-    }
-    .footer-social ul{
+}
+.footer-social ul{
         display: flex;
         justify-content: flex-start;
         
-    }
+}
 /* Footer end */
+
+/* Contact Form start */
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+    padding: 50px;
+    color: #d5d5d5;
+}
+.contact-container input{
+    background-color: #222;
+    border: 2px solid #555;
+}
+
+.call{
+    display: flex;
+}
+
+.location{
+    display: flex
+}
+
+.mail{
+    display: flex;
+}
+
+.help{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.help input{
+    width: 100%;
+}
+.message{
+    width: 400px;
+    height: 200px;
+}
+.message textarea{
+    background-color: rgb(54, 54, 54);
+}
+.message input{
+    width: 100%;
+    height: 100%;
+}
+.message{
+    margin-top: 70px;
+}
+.number-text{
+    padding: 0px 10px 30px 0px;
+}
+.location{
+    padding: 0px 10px 30px 0px;
+}
+.mail-text{
+    padding: 0px 10px 30px 0px;
+}
+.loc-icon{
+    margin-right: 10px;
+}
+
+.mail.icon{
+    margin-right: 10px;
+}
+.call-icon{
+    margin-right: 10px;
+}
+
+.google-map{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+/* Contact Form end */
+
+.main-container{
+    margin: 50px;
+}
+
+.date-loc{
+    display: flex;
+    margin: 5px 20px;
+}
+.loc{
+    margin-left: 20px;
+    color: #a8a8a8;
+    opacity: .7;
+    
+}
+.title-desc{
+    margin: 10px 20px;
+    line-height: 1.75em;
+}
+.title{
+    color: #f5f5f5;
+}
+
+.event{
+    margin-top: 50px;
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.desc{
+    margin-top: 5px;
+}
+
+.desc p{
+    color: #f5f5f5;
+}
+
+.date{
+    border-radius: 10px;
+    border: 1px solid blue;
+    font-size: 0.7em;
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+.title-text h1{
+    color: #f5f5f5;
+}
+
+/* Skills Start */
+
+.technologies i{
+    font-size: 5em
+}
+
+.technologies{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly
+}
+
+.skill-header-text{
+    margin: 50px;
+}
+/* Skills end */

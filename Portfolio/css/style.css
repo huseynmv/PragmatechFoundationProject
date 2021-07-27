@@ -47,6 +47,13 @@ body{
     color: rgb(170, 166, 166);
 }
 
+.navbar-menu ul li a{
+    text-decoration: none;
+    color: rgb(170, 166, 166);
+    font-family: "Poppins",Helvetica,sans-serif;
+    color: #d5d5d5;
+}
+
 .navbar-menu ul li:hover{
     color: white;
     transition: 0.2s;

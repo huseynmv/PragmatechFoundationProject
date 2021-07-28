@@ -27,3 +27,10 @@ e)
     b) Adlar hərf ilə başlamalıdır.
     c) Dəyişən adları case sensitive-dir.
     d) JavaScript keywords-lər istifadə etmək olmaz.
+    e) Adlar unique olmalıdır.
+
+4. 1-cidən başlayaraq 1..2..3 kimi oxunur.
+
+5. Çünki HTML faylı daxilində yazılır. (Çünki brauzerin daxilindı JS engine var).
+
+6. 

@@ -1,0 +1,20 @@
+.next{
+    position: relative;
+    top: 250px;
+    left: 850px;
+}
+
+.previous{
+    position: relative;
+    top: 250px;
+    right: -70px;
+}
+
+.slideshow img{
+    position: absolute;
+    object-fit: cover;
+}
+
+.slideshow{
+    margin: 0 auto;
+}

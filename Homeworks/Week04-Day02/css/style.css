@@ -10,11 +10,11 @@
     right: -70px;
 }
 
-.slideshow img{
+.carousel img{
     position: absolute;
     object-fit: cover;
 }
 
-.slideshow{
+.carousel{
     margin: 0 auto;
 }

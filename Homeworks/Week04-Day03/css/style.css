@@ -1,0 +1,47 @@
+.button-container{
+    padding: 10px;
+}
+
+.left-right{
+    margin:5px 0px
+}
+
+.d-block{
+    display: block;
+}
+
+.up{
+    margin-left: 30px;
+}
+
+.down{
+    margin-left: 20px;
+
+}
+
+.box-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+    
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.box p{
+    color: white;
+    text-align: center;
+}
+

@@ -1,0 +1,35 @@
+.clock{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: relative;
+    background-color: lightblue;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr{
+    width: 5px;
+    height: 100px;
+    background-color: black;
+    transform: translate(0, -100%);
+    position: absolute;
+}
+
+.mn{
+    width: 3px;
+    height: 150px;
+    background-color: red;
+    transform: translate(0, -100%);
+    position: absolute;
+}
+
+.sc{
+    width: 1px;
+    height: 200px;
+    background-color: blue;
+    transform: translate(0, -100%);
+    position: absolute;
+}

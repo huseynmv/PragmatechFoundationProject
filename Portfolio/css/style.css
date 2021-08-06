@@ -10,10 +10,15 @@ body{
     background-color: #222;
 }
 
+.m-50{
+    margin-left:50px
+}
+
 .text-logo{
     display: flex;
     justify-content: flex-start;
-    padding: 20px
+    /* padding: 20px */
+    margin-top: 30px;
 }
 
 .logo-text{
@@ -41,17 +46,18 @@ body{
     list-style-type: none;
     align-items: center;
     height: 100%;
+    padding: 0px;
 }
 
 .navbar-menu ul li{
     color: rgb(170, 166, 166);
+    margin-left: 20px;
 }
 
 .navbar-menu ul li a{
     text-decoration: none;
     color: rgb(170, 166, 166);
     font-family: "Poppins",Helvetica,sans-serif;
-    color: #d5d5d5;
 }
 
 .navbar-menu ul li:hover{
@@ -71,7 +77,7 @@ body{
 
 .image img{
     object-fit: cover;
-    width: 50%;
+    width: 400px;
     border-radius: 50%;
     border: 10px solid rgb(77, 76, 76);
 }
@@ -83,6 +89,7 @@ body{
     line-height: 50px;
     height: 100%;
     padding: 20px 50px 50px 50px;
+    margin-top: -50px;
 }
 
 .information p{
@@ -96,7 +103,7 @@ body{
 
 .image-information{
     padding-right: 200px;
-    margin: 50px 0px;
+    margin: 120px 30px;
 }
 
 .cv-btn{
@@ -216,10 +223,10 @@ body{
 
 .portfolio-text{
     margin:10px 50px;
-    padding: 40px 0px;
+    /* padding: 40px 0px; */
 }
 
-.portfolio-text-container{
+.text{
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
     background-color: #252525;
@@ -260,6 +267,10 @@ body{
     position: relative;
     text-align: center;
     color: white;
+    /* width: 400px; */
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
 }
 .top-left-text{
     position: absolute;
@@ -273,7 +284,13 @@ body{
 .portfolio-items img{
     width: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.portfolio-items img:hover{
+    transform: scale(1.2);
+
 }
 
 /* Portfolio End */
@@ -288,7 +305,7 @@ body{
 .footer-container{
         display: flex;
         justify-content: space-between;
-        margin: 30px 0px 0px 0px;
+        margin: 70px 0px 0px 0px;
 }
 
 .footer-copyright{
@@ -309,97 +326,46 @@ body{
 
 /* Contact Form start */
 
-.contact-container{
-    display: flex;
-    justify-content: space-around;
-    margin: 50px 0px;
-    padding: 50px;
-    color: #d5d5d5;
-}
-.contact-container input{
-    background-color: #222;
-    border: 2px solid #555;
-}
-
-.call{
-    display: flex;
-}
-
-.location{
-    display: flex
-}
-
-.mail{
-    display: flex;
-}
-
-.help{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.help input{
-    width: 100%;
-}
-.message{
-    width: 400px;
-    height: 200px;
-}
-.message textarea{
-    background-color: #222;
-}
-.message input{
-    width: 100%;
-    height: 100%;
-}
-.message{
-    margin-top: 70px;
-}
-.number-text{
-    padding: 0px 10px 30px 0px;
-}
-.location{
-    padding: 0px 10px 30px 0px;
-}
-.mail-text{
-    padding: 0px 10px 30px 0px;
-}
-.loc-icon{
-    margin-right: 10px;
-}
-
-.mail.icon{
-    margin-right: 10px;
-}
-.call-icon{
-    margin-right: 10px;
-}
-
 .google-map{
     display: flex;
     justify-content: center;
     margin-top: 70px;
 }
 
-.send-message{
-    border: 1px solid #007ced;
-    text-align: center;
-    border-radius: 1rem;
-    margin: 0px 40px;
+.d-flex{
+    display: flex;
 }
 
-.send-message:hover{
-    cursor: pointer;
-    background-color: #007ced;
-    transition: 0.4s;
+.w-color{
+    color: #f5f5f5;
+    font-size: 1.3em;
+    margin-left: 20px;
 }
+
+.call{
+    margin-bottom: 20px;
+}
+
+.mail{
+    margin-bottom: 20px;
+}
+
+.location{
+    margin-bottom: 20px;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
 /* Contact Form end */
 /* Resume start */
 .main-container{
-    margin: 50px;
+    margin: 80px;
 }
-
+.resume-main{
+    margin: 40px 120px
+}
 .date-loc{
     display: flex;
     margin: 5px 20px;
@@ -457,7 +423,9 @@ body{
     margin-top: 20px;
     justify-content: space-evenly
 }
-
+.my-skills{
+    margin: 40px 90px;
+}
 .skill-header-text{
     margin: 50px;
     color: white;
@@ -477,6 +445,14 @@ body{
     max-width: 100%;
     object-fit: cover;
     border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.blog-items img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+
 }
 .blog-items span{
     color: #aaa;
@@ -485,4 +461,23 @@ body{
 .blog-items{
     color: #f5f5f5;
     position: relative;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.blue-div{
+    width: 30px;
+    height: 1.5px;
+    background-color: #007ced;
+}
+
+.gray-div{
+    width: 70px;
+    height: 1.5px;
+    background-color: #d5d5d5;
+}
+
+.blue-gray-div{
+    display: flex;
 }

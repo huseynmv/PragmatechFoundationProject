@@ -7,7 +7,8 @@ body{
     margin: 0px;
 }
 /* Navbar section start */
-#navbar{
+
+.bg-main{
     background-color: #222;
 }
 
@@ -18,12 +19,10 @@ body{
 .text-logo{
     display: flex;
     justify-content: flex-start;
-    /* padding: 20px */
-    margin-top: 30px;
 }
 
 .logo-text{
-    padding: 20px;
+    padding: 20px 0px;
     color: white;
 }
 
@@ -51,6 +50,7 @@ body{
     align-items: center;
     height: 100%;
     padding: 0px;
+    margin: 0px;
 }
 
 .navbar-menu ul li{
@@ -70,6 +70,16 @@ body{
     cursor: pointer;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px 100px;
+    transition: all 1s ease;
+    background: rgb(37, 37, 37);
+    z-index: 999;
+    box-shadow: 5px 1px #414141;
+  }
 /* Navbar section end */
 
 /* Image and information start */

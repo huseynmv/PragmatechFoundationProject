@@ -28,6 +28,7 @@ body{
 
 .logo-text h3{
     color: white;
+    margin: 0px;
 }
 
 .mt-50{
@@ -64,6 +65,10 @@ body{
     font-family: "Poppins",Helvetica,sans-serif;
 }
 
+#navbarr{
+    transition: all 1s ease;
+}
+
 .navbar-menu ul li:hover{
     color: white;
     transition: 0.2s;
@@ -72,9 +77,9 @@ body{
 
 .sticky {
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
-    padding: 0px 100px;
+    padding: 1px 20px;
     transition: all 1s ease;
     background: rgb(37, 37, 37);
     z-index: 999;
@@ -155,8 +160,37 @@ body{
 }
 
 .copyright-container{
+    position: relative;
+    right: 2000px;
     display: flex;
     padding: 15px 50px;
+}
+
+.ui-container{
+    position: relative;
+    right: 2000px;
+    display: flex;
+    padding: 15px 50px;
+    /* display: none; */
+}
+
+.marketing-container{
+    position: relative;
+    right: 2000px;
+    display: flex;
+    padding: 15px 50px;
+}
+
+.ecommerce-container{
+    position: relative;
+    right: 2000px;
+    display: flex;
+    padding: 15px 50px;
+}
+.animation{
+    position: relative;
+    right: 0px;
+    transition: all 1.5s ease;
 }
 
 .copyright-icon{
@@ -188,6 +222,19 @@ body{
     margin-bottom: 20px;
     color: white;
     
+}
+
+.animation1{
+    position: relative;
+    top: 0px;
+    transition: all 2s ease;
+}
+
+.heci{
+    position: relative;
+    top: 500px;
+    width: 100%;
+    height: 100%;
 }
 
 .testimotionals{

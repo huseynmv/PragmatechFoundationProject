@@ -5,7 +5,13 @@ body p, h1, h2, h3, h4, h5{
 body{
     background-color: #222;
     margin: 0px;
+    /* overflow: hidden; */
 }
+
+/* .row{
+    overflow: hidden;
+} */
+
 /* Navbar section start */
 
 .bg-main{
@@ -41,7 +47,8 @@ body{
 
 .navbar-menu{
     height: 100%;
-    margin-right: 60px;
+    /* margin-right: 60px; */
+    max-width: 100%;
 }
 
 .navbar-menu ul{
@@ -67,6 +74,7 @@ body{
 
 #navbarr{
     transition: all 1s ease;
+    max-width: 100%;
 }
 
 .navbar-menu ul li:hover{
@@ -79,7 +87,7 @@ body{
     position: fixed;
     top: 0px;
     width: 100%;
-    padding: 1px 20px;
+    /* padding: 1px 20px; */
     transition: all 1s ease;
     background: rgb(37, 37, 37);
     z-index: 999;
@@ -92,14 +100,15 @@ body{
 .image{
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 .image img{
     object-fit: cover;
-    width: 400px;
+    max-width: 60%;
     border-radius: 50%;
     border: 10px solid rgb(77, 76, 76);
-    margin-left: 200px;
+    
 }
 
 .information{
@@ -115,7 +124,7 @@ body{
 .information p{
     line-height: normal;
     margin-top: 20px;
-    width: 300px;
+    width: 100%;
 }
 
 .information h4{
@@ -125,10 +134,11 @@ body{
 
 .information h1{
     font-size: 3em;
+    max-width: 100%;
 }
 
 .image-information{
-    padding-right: 200px;
+    /* padding-right: 200px; */
     margin: 120px 30px;
 }
 
@@ -190,6 +200,12 @@ body{
 .animation{
     position: relative;
     right: 0px;
+    transition: all 1.3s ease;
+}
+
+.animation2{
+    position: relative;
+    left: 0px;
     transition: all 1.5s ease;
 }
 
@@ -381,7 +397,7 @@ body{
 }
 .footer-container{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         margin: 70px 0px 0px 0px;
 }
 
@@ -449,59 +465,41 @@ body{
     margin-top: 100px;
 }
 
+
 /* Contact Form end */
 /* Resume start */
-.main-container{
-    margin: 80px;
-}
-.resume-main{
-    margin: 40px 120px
-}
-.date-loc{
-    display: flex;
-    margin: 5px 20px;
-}
-.loc{
-    margin-left: 20px;
-    color: #a8a8a8;
-    opacity: .7;
-    
-}
-.title-desc{
-    margin: 10px 20px;
-    line-height: 1.75em;
-}
-.title{
+
+.education{
+    margin: 50px 120px;
     color: #f5f5f5;
+    line-height: 1.5rem;
 }
 
-.event{
-    margin-top: 50px;
-    border-left: 1px solid #333;
-    border-bottom: 1px solid #333;
-}
-
-.desc{
-    margin-top: 5px;
-}
-
-.desc p{
+.educa{
+    margin: 50px 120px;
     color: #f5f5f5;
+    line-height: 1.5rem;
 }
 
-.date{
-    border-radius: 10px;
-    border: 1px solid blue;
-    font-size: 0.7em;
+.experience{
+    margin: 50px 120px;
     color: #f5f5f5;
-    display: flex;
-    align-items: center;
-    padding: 0px 10px;
+    line-height: 1.5rem;
 }
 
-.title-text h1{
+.experien{
+    margin: 50px 120px;
     color: #f5f5f5;
+    line-height: 1.5rem;
 }
+
+.time-loc{
+    border: 2px solid #007ced;
+    border-radius: 50px;
+    width: 25%;
+    text-align: center;
+}
+
 /* Resume end */
 /* Skills Start */
 
@@ -580,3 +578,32 @@ body{
 .blue-gray-div{
     display: flex;
 }
+
+@media (max-width: 991px) {
+    .image-information { padding-right: 0px; }
+    .text-logo { display: none; }
+    .navbar-menu ul li { justify-content: center; }
+  }
+
+  @media (min-width: 280px) and (max-width: 376px) {
+    .information h1 { font-size: 1.5em; }
+    .footer-social { max-width: 100%; }
+    .sticky { padding: 0px; }
+    .navbar-menu ul { justify-content: center; margin-right: 0px; }
+    #navbarr { max-width: 150%; }
+  }
+
+@media (max-width: 280px){
+    /* .footer { display: none; }
+    #navbar { display: none; } */
+    .footer-social { max-width: 100%; }
+    .sticky { padding: 0px; }
+    .navbar-menu ul { justify-content: center; margin-right: 0px; }
+    .information p { width: 300%; }
+}
+
+@media (width: 1024px){
+    .image img {
+        max-width: 80%;
+        margin-top: 70px;
+    }}

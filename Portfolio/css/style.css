@@ -611,12 +611,23 @@ body{
     .image img {
         max-width: 80%;
         margin-top: 70px;
-    }}
+    }
+    .blog-grid-container { gap: 100px; }
+}
 @media (min-width: 250px) and (max-width:376px) {
     .education-row {
         margin: 50px 0px;
     }
     .experience-row{
         margin: 50px 0px;
+    }
+    .navbar-menu ul li { margin-left: 5px; }
+    .body { max-width: 375px; }
+}   
+
+@media (min-width: 1500px){
+    .image img { width: 40%; }
+    .information p{
+        width: 50%;
     }
 }

@@ -34,4 +34,3 @@ for (let i = 0; i < arr.length; i++) {
     
 }
 console.log(cem) // Sum of array elements
-

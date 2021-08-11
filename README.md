@@ -19,5 +19,5 @@
 
 ### Tədris müddətində yazdığım məqalələr
 
-* [Məqalə adı]
+* [Veb sayt, domain və server anlayışları](https://medium.com/@huseynmv/veb-sayt-domain-v%C9%99-server-anlay%C4%B1%C5%9Flar%C4%B1-b6119989be65)
 * [Məqalə adı]

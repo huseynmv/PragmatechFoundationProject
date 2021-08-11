@@ -1,0 +1,66 @@
+.ml-6{
+    margin-left: 5px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.pt-200{
+    padding-top: 200px;
+}
+
+.pb-200{
+    padding-bottom: 200px;
+}
+
+.pl-100{
+    padding-left: 100px;
+}
+
+.pr-100{
+    padding-right: 100px;
+}
+
+.px-100{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.home-image img{
+    border: 20px solid lightgray;
+    object-fit: cover;
+    width: 60%;
+}
+
+.home-image{
+    padding-left: 3rem;
+}
+
+.about-img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.about-inner-text ul li{
+    padding: 4px 10px;
+    border: 2px solid #20c997;
+    border-radius: 8px;
+
+}
+
+.cv-download{
+    width: 30%;
+    border-radius: 20px;
+    height: 15%;
+}
+
+.skills img{
+    object-fit: cover;
+    max-width: 10%;
+}
+
+.projects-grid-container{
+    display: grid;
+    
+}

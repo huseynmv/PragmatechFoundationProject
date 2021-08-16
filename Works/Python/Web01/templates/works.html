@@ -1,0 +1,16 @@
+{% extends 'shablon.html'%} {%block content%}
+{% for employee in employee%}
+<div class="card mt-5">
+  <div class="card-body">
+    <h5 class="card-title">
+        Ad : {{employee['ad']}} Soyad : {{employee['soyad']}} 
+    </h5>
+    <p class="card-text">
+        Email : {{employee['email']}}
+    </p>
+    
+  </div>
+</div>
+{% endfor%}
+{%endblock%}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <a class="mx-5" href="/add_news">xeber elave et</a>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Bashliq</th>
+          <th scope="col">Xulase</th>
+          <th scope="col">Vaxt</th>
+          <th>Əməliyyatlar</th>
+        </tr>
+      </thead>
+      <tbody>
+          {% for xeber in news %}
+          
+          
+        <tr>
+          <td>{{xeber.bashliq}}</td>
+          <td>{{xeber.xulase}}</td>
+          <td>{{xeber.vaxt}}</td>
+          <td>
+            <a href="/admin/delete_user/{{xeber.id}}" class="btn btn-primary">Sil</a>
+            <a href="/admin/update_user/{{xeber.id}}" class="btn btn-primary">Deyişdir</a>
+        </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+  </body>
+</html>

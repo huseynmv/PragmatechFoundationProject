@@ -35,6 +35,12 @@
 
 .home-image{
     padding-left: 3rem;
+    margin-top: 30px;
+}
+
+.home-image img{
+    border-radius: 50%;
+    border: 5px solid #20c997;
 }
 
 .about-img img{
@@ -44,7 +50,7 @@
 
 .about-inner-text ul li{
     padding: 4px 10px;
-    border: 2px solid #20c997;
+    border: 1px solid #20c997;
     border-radius: 8px;
 
 }
@@ -53,6 +59,7 @@
     width: 30%;
     border-radius: 20px;
     height: 15%;
+    background-color: #0bceaf;
 }
 
 .skills img{
@@ -60,7 +67,40 @@
     max-width: 10%;
 }
 
+.skills img:hover{
+    box-shadow: 5px red;
+}
+
 .projects-grid-container{
     display: grid;
-    
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 0px 100px;
+}
+
+.project-items img{
+    width: 100%;
+    object-fit: cover;
+}
+.badge-pill{
+    background-color: #0bceaf;
+    border-radius: 50px;
+    width: 15%;
+}
+
+
+.blog-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.review-image img{
+    width: 30%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.review-image{
+    display: flex;
+    justify-content: center;
 }

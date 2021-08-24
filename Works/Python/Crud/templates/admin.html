@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col p-0">
+                <nav class="navbar navbar-light" style="background-color: #e3f2fd;"">
+                    <a class="navbar-brand mx-5" href="/add">Yeni xəbər əlavə et</a>
+                    </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            {% for news in news %}
+            <div class="col">
+                <h3>Bütün xəbərlər</h3>
+                <div class="card shadow mt-3" style="width: 18rem;">
+                    <img class="card-img-top" src="{{news.news_img}}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">{{news.news_title}}</h5>
+                      <p class="card-text">{{news.news_content}}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">{{news.news_date}}</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="/delete/{{news.news_id}}" class="card-link">Sil</a>
+                      <a href="/update/{{news.news_id}}" class="card-link">Dəyişdir</a>
+                    </div>
+                  </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+  </body>
+</html>

@@ -46,6 +46,13 @@ def delete_user(id):
     return redirect('/admin')
 
 
+@app.route("/admin/show/<id>")
+def show(id):
+    for xeber in news :
+        if xeber.id==int(id):
+            return render_template('show_news.html', news=news)
+    return render_template('show_news.html')
+
 @app.route("/admin/update_user/<id>", methods=['GET', 'POST'])
 def update_news(id):
     if request.method=='POST':

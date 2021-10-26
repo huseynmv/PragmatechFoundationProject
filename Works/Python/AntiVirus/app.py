@@ -1,6 +1,6 @@
 import glob, os
 
-path = "C:/Users/99450/Desktop/viruses"
+path = input("path daxil edin ")
 os.chdir(path)
 dir_list = os.listdir(path)
 print(dir_list)

@@ -1,82 +1,94 @@
-// non-numeric string used with - , / , * results to NaN
+let nəticə;
 
-let result;
+nəticə = '4' - '2'; 
+console.log(nəticə); // 2
 
-result = 'hello' - 'world';
-console.log(result); // NaN
+nəticə = '4' - 2;
+console.log(nəticə); // 2
 
-result = '4' - 'hello';
-console.log(result); // NaN
+nəticə = '4' * 2;
+console.log(nəticə); // 8
+
+nəticə = '4' / 2;
+console.log(nəticə); // 2
+
 
 
 
 // if boolean is used, true is 1, false is 0
 
-let result;
+let nəticə;
 
-result = '4' - true;
-console.log(result); // 3
+nəticə = '4' - true;
+console.log(nəticə); // 3
 
-result = 4 + true;
-console.log(result); // 5
+nəticə = 4 + true;
+console.log(nəticə); // 5
 
-result = 4 + false;
-console.log(result); // 4
-
-
+nəticə = 4 + false;
+console.log(nəticə); // 4
 
 
 
 
-let result;
-result = Boolean('');
-console.log(result); // false
+
+
+let nəticə;
+nəticə = Boolean('');
+console.log(nəticə); // false
 
 result = Boolean(0);
-console.log(result); // false
+console.log(nəticə); // false
 
-result = Boolean(undefined);
-console.log(result); // false
+nəticə = Boolean(undefined);
+console.log(nəticə); // false
 
-result = Boolean(null);
-console.log(result); // false
+nəticə = Boolean(null);
+console.log(nəticə); // false
 
-result = Boolean(NaN);
-console.log(result); // false
+nəticə = Boolean(NaN);
+console.log(nəticə); // false
 
-result = Boolean(324);
-console.log(result); // true
+nəticə = Boolean(324);
+console.log(nəticə); // true
 
-result = Boolean('hello');
-console.log(result); // true
+nəticə = Boolean('hello');
+console.log(nəticə); // true
 
-result = Boolean(' ');
-console.log(result); // true
-
-
+nəticə = Boolean(' ');
+console.log(nəticə); // true
 
 
 
-//number to string
-let result;
-result = String(324);
-console.log(result);  // "324"
 
-result = String(2 + 4);
-console.log(result); // "6"
 
-//other data types to string
-result = String(null);
-console.log(result); // "null"
 
-result = String(undefined);
-console.log(result); // "undefined"
+let nəticə;
 
-result = String(NaN);
-console.log(result); // "NaN"
+nəticə = Number('324');
+console.log(nəticə);  // "324"
 
-result = String(true);
-console.log(result); // "true"
+nəticə = Number(true);
+console.log(nəticə); // 1
 
-result = String(false);
-console.log(result); // "false"
+nəticə = Number(2 + 4);
+console.log(nəticə); // "6"
+
+
+let nəticə;
+
+nəticə = String(null);
+console.log(nəticə); // "null"
+
+nəticə = String(undefined);
+console.log(nəticə); // "undefined"
+
+nəticə = String(NaN);
+console.log(nəticə); // "NaN"
+
+nəticə = String(true);
+console.log(nəticə); // "true"
+
+nəticə = String(false);
+console.log(nəticə); // "false"
+

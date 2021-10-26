@@ -1,0 +1,15 @@
+<div class="container mt-5">
+    <div class="row">
+        {% for xeber in news %}
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">{{xeber.bashliq}}</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">{{xeber.vaxt}}</h6>
+                  <p class="card-text">{{xeber.kontent}}</p>
+                </div>
+              </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

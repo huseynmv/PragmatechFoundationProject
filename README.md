@@ -1,7 +1,6 @@
 ### Haqqımda qısa məlumat
-* Tədrisə başladığım tarix : 29 İyul 2021
-* Tədrisi başa vurduğum tarix : 
-* Tədrisi başa vurduğum tarix : 20 Sentyabr 2021
+* Tədrisə başladığım tarix : 29 İyun 2021 
+* Tədrisi başa vurduğum tarix : 29 Avqust 2021
 * Tədris müddətində hədəflədiyim layihə şablon(ları) :[Şablon](https://lmpixels.com/wp/leven-wp/full-width-dark/) 
 
 
